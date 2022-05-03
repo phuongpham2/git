@@ -1,0 +1,164 @@
+@media screen and (min-width: 1024px) {
+  .grid-card-1 .card-item-img{
+    width: 129px;
+    height: 116px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container{
+    width: 100%;
+  }
+  .swiper-button-next, .swiper-button-prev{
+    display: none;
+  }
+  .tablet-grid-card-hidden{
+    display: none;
+  }
+  .tablet-grid-card-show{
+    display: flex;
+  }
+  .card-item-img{
+    min-height: 91px;
+  }
+  #small-screen-header{
+    display: block;
+  }
+  #wide-screen-header{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .bgr-slider{
+    height: 155px;
+  }
+  .bgr-slider .swiper-slide{
+    padding-top: 15px;
+  }
+  .more-information-table{
+    display: none;
+  }
+  .footerCopyright{
+    margin: 0;
+  }
+  .top-main-footer .footer-container{
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-footer-link-col{
+    width: auto;
+  }
+  .nav-footer-items{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+  h2{
+    font-size: 18px !important;
+  }
+  .grid-card{
+    height: 350px;
+  }
+  .grid-card-top{
+    margin-bottom: 0;
+  }
+  .swiper-slide{
+    padding-top: 8px;
+  }
+  .bgr-slider{
+    height: 115px;
+  }
+  .card-item-name{
+    margin-bottom: 0;
+  }
+  .top-main-footer .footer-container{
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-footer-link-col{
+    width: auto;
+  }
+  .nav-footer-items{
+    display: none;
+  }
+  .grid-card{
+    height: 420px;
+  }
+  .card-item-name{
+    margin-bottom: 0;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .grid-card-1 .card-item-img{
+    height: 91px;
+    flex: 0;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .bgr-slider{
+    height: 60px;
+  }
+  .swiper::before{
+    top: 70px;
+  }
+  .swiper-slide{
+    padding-top: 8px;
+  }
+  .top-main-footer .footer-container{
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-footer-link-col{
+    width: auto;
+  }
+  .nav-footer-items{
+    display: none;
+  }
+  .more-information-table{
+    display: none;
+  }
+  .bottom-main-footer{
+    height: auto;
+    flex-direction: column;
+    gap: 0;
+  }
+  .footer-control{
+    flex-direction: column;
+  }
+  .change-language a, .change-currency-unit a, .change-region a{
+    border: none;
+  }
+  .footerCopyright{
+    margin: 0;
+  }
+  .footerCopyright ul{
+    flex-wrap: wrap;
+  }
+  .card-item-name{
+    margin-bottom: 0;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .grid-card-1 .card-item-img{
+    height: 116px;
+    flex: 0;
+  }
+  .modal-container{
+    width: 100%;
+  }
+  .modal-closep-icon{
+    right: 15px;
+    left: unset;
+  }
+}
